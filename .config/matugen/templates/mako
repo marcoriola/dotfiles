@@ -1,0 +1,15 @@
+# Material You colors
+background-color={{colors.background.default.hex}}b8
+text-color={{colors.on_surface.default.hex}}
+border-color={{colors.outline.default.hex}}b8
+# Per-mode settings
+
+[mode=do-not-disturb]
+invisible=1
+on-notify=none
+
+[mode=silent]
+on-notify=none
+
+[urgency=high]
+border-color={{colors.error_container.default.hex}}

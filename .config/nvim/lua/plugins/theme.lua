@@ -1,0 +1,1 @@
+/home/marware/.config/omarchy/current/theme/neovim.lua
