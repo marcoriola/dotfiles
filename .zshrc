@@ -56,3 +56,5 @@ alias gcad='git commit -a --amend'
 
 fastfetch
 
+# Keep at the end of the file
+eval "$(zoxide init zsh)"
