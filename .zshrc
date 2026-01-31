@@ -3,7 +3,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 plugins=(
 	git 
@@ -42,9 +42,8 @@ open() {
 }
 
 # Directories
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
+alias -g '...'='../..'
+alias -g '....'='../../..'
 
 n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
 
