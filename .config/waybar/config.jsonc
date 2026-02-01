@@ -7,7 +7,6 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules",
   ],
 "layer": "bottom",
 //"mode": "dock",
@@ -32,7 +31,7 @@
 "modules-right": [
 	"group/laptop",
 	"group/connections",
-	"group/audio",
+	"pulseaudio",
 	"group/status",
 	],
 }

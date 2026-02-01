@@ -102,6 +102,11 @@ tooltip label{
 	border-radius: 10px;
 }
 
+#workspaces button:not(.empty):not(.active) {
+    background: alpha(@primary, 0.5);  /* Non-empty workspace color */
+    color: @background;
+}
+
 #custom-swaync {
   background-color: alpha(@surface_container, 0.75);
  /* border: 1px solid @surface_container; */
