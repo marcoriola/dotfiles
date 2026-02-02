@@ -11,6 +11,8 @@ Here are my dotfiles and setup for arch + hyprland. These dotfiles include the f
 - Wlogout
 
 ## Installation
+**IMPORTANT:** The installation script won't work on other distros other than arch (and maybe arch-based ones, but I have not tested it). The dotfiles *may* work on other distros, feel free to try them.
+You will need git to clone the repo
 ```
 git clone https://github.com/marcoriola/dotfiles .dotfiles
 cd .dotfiles
