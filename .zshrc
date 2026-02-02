@@ -28,6 +28,16 @@ alias cd="zd"
 alias vim="nvim"
 alias cat="bat --theme-dark ansi"
 
+# Directories
+alias -g '...'='../..'
+alias -g '....'='../../..'
+
+# Git
+alias g='git'
+alias gcm='git commit -m'
+alias gcam='git commit -a -m'
+alias gcad='git commit -a --amend'
+
 zd() {
   if [ $# -eq 0 ]; then
     builtin cd ~ && return
@@ -41,17 +51,7 @@ open() {
   xdg-open "$@" >/dev/null 2>&1 &
 }
 
-# Directories
-alias -g '...'='../..'
-alias -g '....'='../../..'
-
 n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
-
-# Git
-alias g='git'
-alias gcm='git commit -m'
-alias gcam='git commit -a -m'
-alias gcad='git commit -a --amend'
 
 
 fastfetch
