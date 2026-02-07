@@ -27,6 +27,8 @@ alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias cd="zd"
 alias vim="nvim"
 alias cat="bat --theme-dark ansi"
+alias rm='rmtrash'
+alias rmdir='rmdirtrash'
 
 # Directories
 alias -g '...'='../..'

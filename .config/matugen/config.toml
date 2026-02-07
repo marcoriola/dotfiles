@@ -60,3 +60,8 @@ output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 [templates.kvantum_svg]
 input_path = './templates/kvantum-colors.svg'
 output_path = '~/.config/Kvantum/matugen/matugen.svg'
+
+[templates.ghostty]
+input_path = './templates/ghostty'
+output_path = '~/.config/ghostty/themes/Matugen'
+post_hook = 'pkill -SIGUSR2 ghostty'
