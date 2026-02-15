@@ -75,7 +75,7 @@
 	"tooltip-format-connected": "{device_enumerate}",
 	"tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
 	"tooltip": true,
-	"on-click": "kitty bluetui",
+	"on-click": "ghostty -e bluetui",
 },
 
 "clock": {
@@ -114,7 +114,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "nospacing": 1,
-    "on-click": "kitty impala",
+    "on-click": "ghostty -e impala",
     "on-click-right": "nm-connection-editor"
 },
 
@@ -149,8 +149,8 @@
 		],
 	},
 	"scroll-step": 5.0,
-	"on-click": "$HOME/.config/hypr/scripts/volume.sh --toggle",
-	"on-click-right": "pavucontrol",
+	"on-click": "ghostty -e wiremix",
+	"on-click-right": "$HOME/.config/hypr/scripts/volume.sh --toggle",
 	"on-scroll-up": "$HOME/.config/hypr/scripts/volume.sh --inc",
 	"on-scroll-down": "$HOME/.config/hypr/scripts/volume.sh --dec",
 	"tooltip-format": "{icon} {desc} | {volume}%",

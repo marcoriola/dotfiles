@@ -56,7 +56,7 @@ open() {
 n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
 
 
-fastfetch
+# fastfetch
 
 # Keep at the end of the file
 eval "$(zoxide init zsh)"

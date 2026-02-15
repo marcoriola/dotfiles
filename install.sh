@@ -6,7 +6,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 echo "Installing required packages..."
 sudo pacman -S hyprpolkitagent swww mako rofi nautilus waybar wl-clipboard stow firefox ttf-cascadia-mono-nerd neovim matugen fastfetch zsh hypridle eza zoxide bat impala bluetui hyprlock wget
 
-yay -S python-pywalfox wlogout
+yay -S python-pywalfox
 
 sudo pywalfox install
 
