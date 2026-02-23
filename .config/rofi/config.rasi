@@ -7,7 +7,7 @@ configuration {
 	display-window: "Windows";
 	display-run: "Run";
 	drun-display-format: "{icon}{name}";
-	font: "CaskaydiaMono Nerd Font Semibold 10";
+	font: "CaskaydiaMono Nerd Font Semibold 11";
 	show-icons: true;
 	icon-theme: "Papirus-Dark";
 }
