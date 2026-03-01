@@ -1,28 +1,28 @@
 # Core colors
-background = #0e1416
-foreground = #dee3e5
-cursor-color = #82d3e2
-cursor-text = #0e1416
-selection-background = #00363e
-selection-foreground = #82d3e2
+background = #101417
+foreground = #e0e3e8
+cursor-color = #96ccf8
+cursor-text = #101417
+selection-background = #00344f
+selection-foreground = #96ccf8
 
 
 # Regular Colors
-palette = 0 =  #0e1416
+palette = 0 =  #101417
 palette = 1 =  #ffb4ab
-palette = 2 =  #82d3e2
-palette = 3 =  #bcc5eb
-palette = 4 =  #9fefff
-palette = 5 =  #cde7ed
-palette = 6 =  #b1cbd1
-palette = 7 =  #dee3e5
+palette = 2 =  #96ccf8
+palette = 3 =  #cfc0e8
+palette = 4 =  #cae6ff
+palette = 5 =  #d3e5f6
+palette = 6 =  #b7c9d9
+palette = 7 =  #e0e3e8
 
 # Bright Colors
-palette = 8 =  #343a3c
+palette = 8 =  #363a3e
 palette = 9 =  #ffb4ab
-palette = 10 = #82d3e2
-palette = 11 = #bcc5eb
-palette = 12 = #9fefff
-palette = 13 = #cde7ed 
-palette = 14 = #b1cbd1
-palette = 15 = #dee3e5
+palette = 10 = #96ccf8
+palette = 11 = #cfc0e8
+palette = 12 = #cae6ff
+palette = 13 = #d3e5f6 
+palette = 14 = #b7c9d9
+palette = 15 = #e0e3e8
