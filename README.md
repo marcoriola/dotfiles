@@ -19,10 +19,8 @@ git clone https://github.com/marcoriola/dotfiles .dotfiles
 cd .dotfiles
 chmod +x install.sh
 ./install.sh #Follow the instructions
-stow .
-pkill hyprland #Exit hyprland for the config to load properly
 ```
 If you want to do this in one line:
 ```
-git clone https://github.com/marcoriola/dotfiles .dotfiles && cd .dotfiles && chmod +x install.sh && ./install.sh && stow . && pkill hyprland
+git clone https://github.com/marcoriola/dotfiles .dotfiles && cd .dotfiles && chmod +x install.sh && ./install.sh
 ```

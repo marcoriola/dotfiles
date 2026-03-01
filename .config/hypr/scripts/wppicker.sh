@@ -21,3 +21,4 @@ matugen image "$SELECTED_PATH"
 mkdir -p "$(dirname "$SYMLINK_PATH")"
 ln -sf "$SELECTED_PATH" "$SYMLINK_PATH"
 
+pkexec cp "$SELECTED_PATH" /usr/share/sddm/themes/sddm-astronaut-theme/current_wallpaper
