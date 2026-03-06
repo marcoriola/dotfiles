@@ -29,13 +29,14 @@ case "$choice" in
 esac
 
 stow .
+sudo stow . -t /root
 
 read -p "Do you want to install the astronaut sddm theme? (Y/n): " choice
 
 case "$choice" in
     y|Y|yes|Yes|YES)
 
-        sudo cp -r sddm-astronaut-theme /usr/share/sddm/themes/sddm-astronaut-theme/
+        sudo cp -r ~/.dotfiles/sddm-astronaut-theme /usr/share/sddm/themes/sddm-astronaut-theme/
         # Configure SDDM
         echo "[Theme]
         Current=sddm-astronaut-theme" | sudo tee /etc/sddm.conf >/dev/null
