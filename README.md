@@ -11,7 +11,7 @@ Here are my dotfiles and setup for arch + hyprland. These dotfiles include the f
 - Wlogout
 
 ## Installation
-**IMPORTANT:** The installation script won't work on other distros other than arch (and maybe arch-based ones, but I have not tested it). The dotfiles *may* work on other distros, feel free to try them.
+**IMPORTANT:** The installation script is designed for Arch based distros, however, I have only tested it on Arch and CachyOS. The dotfiles *will* work on other distros but you will have to do some tinkering.
 
 You will need git to clone the repo
 ```
