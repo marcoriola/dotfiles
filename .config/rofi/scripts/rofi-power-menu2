@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Define entries with icons
+entries=(
+    "\0icon\x1fsystem-shutdown\nPower Off"
+    "\0icon\x1fsystem-reboot\nReboot"
+    "\0icon\x1fsystem-suspend\nSuspend"
+)
+
+# Show Rofi menu
+selected=$(printf "%s" "${entries[@]}" | rofi -dmenu -p "Power Menu" -show-icons)
+
+# Handle selection
+case "$selected" in
+    *"Power Off"*) poweroff ;;
+    *"Reboot"*) reboot ;;
+    *"Suspend"*) systemctl suspend ;;
+esac

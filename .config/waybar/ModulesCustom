@@ -134,7 +134,7 @@
     
 "custom/power": {
 	"format": "⏻",
-	"on-click": "$HOME/.config/hypr/scripts/Wlogout.sh",
+	"on-click": "rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu",
 	"tooltip": true,
 	"tooltip-format":"Logout Menu",
 },
