@@ -62,3 +62,4 @@ fastfetch
 
 # Keep at the end of the file
 eval "$(zoxide init zsh)"
+export PATH="$HOME/.local/bin:$PATH"
