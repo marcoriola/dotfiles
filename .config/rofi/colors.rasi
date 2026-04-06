@@ -2,8 +2,8 @@
     primary: #b1c5ff;
     primary-fixed: #dae2ff;
     primary-fixed-dim: #b1c5ff;
-    on-primary: #162e60;
-    on-primary-fixed: #001946;
+    on-primary: #151b2c;
+    on-primary-fixed: #151b2c;
     on-primary-fixed-variant: #2f4578;
     primary-container: #2f4578;
     on-primary-container: #dae2ff;
