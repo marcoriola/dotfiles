@@ -2,13 +2,12 @@
 Here are my dotfiles and setup for arch + hyprland. These dotfiles include the following:
 - Fastfetch
 - Hyprland
-- Kitty
+- Ghostty
 - Mako (notification daemon)
 - Matugen (for dynamic color scheming)
-- Neovim
+- Neovim (LazyVim)
 - Rofi
 - Waybar
-- Wlogout
 
 ## Installation
 **IMPORTANT:** The installation script is designed for Arch based distros, however, I have only tested it on Arch and CachyOS. The dotfiles *will* work on other distros but you will have to do some tinkering.
